@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171717">
+  <meta name="description" content="LUXKY STORE — belanja lebih mudah, harga lebih bersahabat.">
+  <title>LUXKY STORE — Temukan yang Kamu Cari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span>Belanja nyaman, harga tetap bersahabat.</span>
+      <div><span>Gratis ongkir pilihan</span><i></i><span>Promo setiap hari</span><i></i><span>Bantuan pelanggan</span></div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="brand" href="#" aria-label="LUXKY STORE beranda">
+        <span class="brand-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5h16l-1.3 12H5.3L4 8.5Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg></span>
+        <span>LUXKY<span> STORE</span><small>SHOP SMART. LIVE BETTER.</small></span>
+      </a>
+
+      <form class="search-box" id="search-form">
+        <svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+        <input id="search-input" type="search" placeholder="Cari produk, merek, atau kebutuhanmu..." autocomplete="off">
+        <button type="submit">Cari</button>
+      </form>
+
+      <div class="header-actions">
+        <button class="icon-action cart-shortcut" id="cart-shortcut" aria-label="Lihat keranjang">
+          <span class="icon-wrap"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.4L22 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><b id="cart-count">0</b></span>
+          <span>Keranjang</span>
+        </button>
+        <button class="profile-action" id="account-button"><span class="profile-avatar">A</span><span>Admin</span></button>
+      </div>
+    </div>
+    <nav class="category-nav">
+      <div class="container nav-inner">
+        <a href="#products" class="nav-active">Beranda</a>
+        <a href="#categories">Kategori</a>
+        <a href="#products" data-category-link="fashion">Fashion</a>
+        <a href="#products" data-category-link="elektronik">Elektronik</a>
+        <a href="#products" data-category-link="rumah">Rumah Tangga</a>
+        <a href="#promo">Promo Hari Ini <span class="nav-hot">HOT</span></a>
+        <span class="nav-spacer"></span><span class="secure-note">Belanja aman & nyaman</span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container page-content">
+    <section class="hero-grid" id="promo">
+      <div class="hero-banner">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> LUXKY STORE — SMART MARKETPLACE</span>
+          <h1>Temukan favoritmu.<br><em>Hemat lebih banyak.</em></h1>
+          <p>Produk pilihan, harga bersahabat, dan pengalaman belanja yang lebih praktis dalam satu tempat.</p>
+          <a class="primary-button" href="#products">Mulai Belanja <span>↗</span></a>
+          <div class="hero-foot"><span>01</span><div class="hero-progress"><i></i></div><span>03</span><span class="hero-caption">PILIHAN MINGGU INI</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+          <div class="hero-sale-card"><small>WEEKEND DEAL</small><strong>UP TO</strong><b>50<span>%</span></b><small>OFF SELECTED ITEMS</small></div>
+          <div class="floating-tag tag-top">✦ BEST DEAL</div><div class="floating-tag tag-bottom">Pilihan untukmu</div>
+          <div class="hero-spark spark-one">✳</div><div class="hero-spark spark-two">✦</div>
+        </div>
+      </div>
+      <aside class="side-promo">
+        <div class="side-promo-top"><span class="mini-label">SPECIAL OFFER</span><div class="side-promo-icon">✦</div><h3>Belanja<br>lebih cerdas.</h3><p>Nikmati penawaran menarik untuk kebutuhan sehari-hari.</p><a href="#products">Lihat penawaran <b>→</b></a></div>
+        <div class="side-promo-bottom"><span>REKOMENDASI LUXKY STORE</span><strong>Good things<br>within reach.</strong><div class="mini-lines"><i></i><i></i><i></i></div></div>
+      </aside>
+    </section>
+
+    <section class="benefit-row">
+      <div class="benefit"><span class="benefit-icon">↗</span><div><b>Belanja praktis</b><small>Semua kebutuhan dalam satu tempat</small></div></div>
+      <div class="benefit"><span class="benefit-icon">◇</span><div><b>Produk pilihan</b><small>Katalog yang dikurasi untukmu</small></div></div>
+      <div class="benefit"><span class="benefit-icon">%</span><div><b>Harga bersahabat</b><small>Hitung promo dengan mudah</small></div></div>
+      <div class="benefit"><span class="benefit-icon">♡</span><div><b>Layanan responsif</b><small>Asisten toko siap membantu</small></div></div>
+    </section>
+
+    <section class="section-block" id="categories">
+      <div class="section-heading"><div><span class="section-kicker">JELAJAHI TOKO</span><h2>Belanja berdasarkan kategori</h2><p>Pilih kategori untuk menemukan yang kamu butuhkan.</p></div><a href="#products" class="text-link">Semua kategori <b>→</b></a></div>
+      <div class="category-grid">
+        <button class="category-card active" data-category="semua"><span class="category-symbol all-symbol">✳</span><b>Semua</b><small>Lihat semuanya</small></button>
+        <button class="category-card" data-category="elektronik"><span class="category-symbol">⌁</span><b>Elektronik</b><small>Gadget & aksesori</small></button>
+        <button class="category-card" data-category="fashion"><span class="category-symbol">◇</span><b>Fashion</b><small>Gaya sehari-hari</small></button>
+        <button class="category-card" data-category="rumah"><span class="category-symbol">⌂</span><b>Rumah tangga</b><small>Teman di rumah</small></button>
+        <button class="category-card" data-category="kecantikan"><span class="category-symbol">✿</span><b>Kecantikan</b><small>Rawat dirimu</small></button>
+        <button class="category-card" data-category="olahraga"><span class="category-symbol">↗</span><b>Olahraga</b><small>Aktif setiap hari</small></button>
+      </div>
+    </section>
+
+    <section class="section-block product-section" id="products">
+      <div class="section-heading product-heading"><div><span class="section-kicker">DIPILIH UNTUKMU</span><h2>Produk pilihan hari ini</h2><p>Temukan barang menarik dengan penawaran spesial.</p></div><div class="product-tools"><span id="product-result-count">6 produk</span><select id="sort-select" aria-label="Urutkan produk"><option value="default">Rekomendasi</option><option value="low">Harga terendah</option><option value="high">Harga tertinggi</option></select></div></div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="empty-state hidden" id="empty-products"><b>Produk tidak ditemukan</b><span>Coba kata kunci atau kategori lainnya.</span></div>
+    </section>
+
+    <section class="checkout-layout" id="checkout">
+      <div class="checkout-panel">
+        <div class="panel-heading"><div><span class="section-kicker">RINGKASAN PESANAN</span><h2>Keranjang belanja</h2></div><span class="cart-status" id="cart-status">0 item</span></div>
+        <div class="cart-items" id="cart-items"><div class="cart-empty"><span>♡</span><b>Keranjangmu masih kosong</b><small>Tambahkan produk untuk mulai berbelanja.</small></div></div>
+        <div class="checkout-summary">
+          <div><span>Subtotal</span><b id="checkout-subtotal">Rp0</b></div>
+          <div><span>Total diskon</span><b class="discount-value" id="checkout-discount">− Rp0</b></div>
+          <div class="summary-total"><span>Total pembayaran</span><strong id="checkout-total">Rp0</strong></div>
+          <button class="checkout-button" id="pay-button">Selesaikan Pembayaran <span>→</span></button>
+          <small class="checkout-note">Simulasi transaksi untuk demonstrasi UKK.</small>
+        </div>
+      </div>
+      <div class="discount-panel">
+        <span class="section-kicker">SMART DISCOUNT</span><div class="discount-illustration">%</div>
+        <h2>Diskon otomatis,<br>belanja makin hemat.</h2><p>Masukkan harga barang melalui asisten toko. Hasil perhitungan akan langsung masuk ke ringkasan pembayaran.</p>
+        <div class="discount-rules"><div><span>≤ Rp50.000</span><b>10%</b></div><div><span>Rp50.001 – Rp100.000</span><b>15%</b></div><div><span>Di atas Rp100.000</span><b>20%</b></div></div>
+        <form class="quick-discount-form" id="quick-discount-form">
+          <label for="quick-item-name">Nama barang</label><input id="quick-item-name" type="text" maxlength="90" placeholder="Contoh: Headphone">
+          <label for="quick-item-price">Harga barang (Rp)</label><div class="quick-discount-row"><input id="quick-item-price" type="number" min="1" step="1" required placeholder="Contoh: 80000"><button type="submit">Hitung</button></div>
+        </form>
+        <button class="outline-button" id="ask-discount-button">Coba hitung lewat chatbot ↗</button>
+      </div>
+    </section>
+
+    <footer class="site-footer"><a class="footer-brand" href="#">LUXKY<span> STORE</span></a><span>© 2026 LUXKY STORE. Demo Web Development UKK SIJA.</span><span>Designed with care.</span></footer>
+  </main>
+
+  <button class="chat-launcher" id="chat-launcher" aria-label="Buka asisten toko"><span class="chat-launcher-icon">✳</span><span><b>Asisten LUXKY STORE</b><small>Ada yang bisa kami bantu?</small></span><span class="launcher-arrow">↗</span></button>
+  <section class="chat-widget" id="chat-widget" aria-label="Chatbot asisten toko">
+    <header class="chat-header"><div class="assistant-avatar">L<span></span></div><div class="chat-title"><b>Asisten LUXKY STORE</b><small><i></i> Siap membantu kamu</small></div><span class="ai-mode" id="ai-mode">SMART ASSISTANT</span><button id="chat-close" class="chat-close" aria-label="Tutup chatbot">×</button></header>
+    <div class="chat-messages" id="chat-messages" aria-live="polite">
+      <div class="chat-date">HARI INI</div>
+      <div class="message-row bot-row"><div class="message-avatar">L</div><div class="message-content"><div class="bubble bot-bubble">Halo! Selamat datang di LUXKY STORE 👋<br>Aku asisten toko yang siap bantu kamu. Mau cari produk, tanya info toko, atau hitung diskon?</div><span class="message-time">Baru saja</span></div></div>
+      <div class="quick-prompts"><button data-prompt="Bantu hitung diskon">Hitung diskon</button><button data-prompt="Tampilkan kategori produk">Kategori produk</button><button data-prompt="Apa saja bantuan yang tersedia?">Bantuan</button></div>
+    </div>
+    <div class="chat-input-area"><div class="chat-hint">Ketik harga, misalnya <button id="example-price">80000</button></div><form id="chat-form"><input id="chat-input" type="text" placeholder="Tulis pesan di sini..." autocomplete="off"><button type="submit" aria-label="Kirim pesan"><svg viewBox="0 0 24 24"><path d="m4 4 17 8-17 8 3-8-3-8Z"/><path d="M7 12h14"/></svg></button></form><small class="chat-disclaimer">Asisten digital LUXKY STORE · Jawaban AI dapat memerlukan verifikasi.</small></div>
+  </section>
+
+  <section class="admin-overlay hidden" id="admin-overlay" aria-modal="true" role="dialog" aria-labelledby="admin-title">
+    <div class="admin-shell">
+      <header class="admin-topbar"><div class="admin-brand"><span class="admin-brand-mark">L</span><div><b id="admin-title">LUXKY STORE Admin</b><small>STORE MANAGEMENT</small></div></div><div class="admin-top-actions"><span class="admin-local-note">● MODE LOKAL</span><button class="admin-close" id="admin-close" aria-label="Tutup dashboard">×</button></div></header>
+      <div class="admin-body" id="admin-login-view">
+        <form class="admin-login-card" id="admin-login-form"><span class="section-kicker">AREA KHUSUS PENGELOLA</span><h2>Masuk ke dashboard</h2><p>Kelola produk dan pesanan LUXKY STORE dari satu tempat.</p><label>Username<input name="username" autocomplete="username" required placeholder="Username admin"></label><label>Password<input name="password" type="password" autocomplete="current-password" required placeholder="Password admin"></label><button class="admin-primary" type="submit">Masuk Dashboard →</button><small class="admin-login-hint">Akun demo awal: <b>admin</b> / <b>redmarket123</b>. Ganti password setelah masuk.</small></form>
+      </div>
+      <div class="admin-app hidden" id="admin-app-view">
+        <aside class="admin-sidebar"><div class="admin-user"><span>A</span><div><b>Administrator</b><small>Single account</small></div></div><button class="admin-nav active" data-admin-tab="overview">▦ Ringkasan</button><button class="admin-nav" data-admin-tab="products">▣ Produk</button><button class="admin-nav" data-admin-tab="orders">▤ Pesanan</button><button class="admin-nav" data-admin-tab="settings">⚙ Data & AI</button><div class="admin-sidebar-bottom"><button id="admin-change-password">Ganti password</button><button id="admin-logout">Keluar akun ↗</button></div></aside>
+        <main class="admin-main">
+          <section class="admin-page" id="admin-page-overview"><div class="admin-page-heading"><div><span class="section-kicker">OVERVIEW</span><h2>Ringkasan toko</h2><p>Pantau katalog dan transaksi LUXKY STORE.</p></div><button class="admin-primary compact" data-admin-tab="products">+ Tambah produk</button></div><div class="admin-stats"><article><small>Total produk aktif</small><b id="stat-products">0</b><span>Dalam katalog toko</span></article><article><small>Total pesanan</small><b id="stat-orders">0</b><span>Pesanan tersimpan</span></article><article><small>Menunggu diproses</small><b id="stat-pending">0</b><span>Status pesanan</span></article><article><small>Nilai transaksi</small><b id="stat-revenue">Rp0</b><span>Total pesanan tersimpan</span></article></div><div class="admin-info-card"><b>Catatan penyimpanan lokal</b><p>Data produk dan pesanan tersimpan di browser perangkat ini. Jangan hapus data situs/browser jika ingin mempertahankan data demo.</p></div></section>
+          <section class="admin-page hidden" id="admin-page-products"><div class="admin-page-heading"><div><span class="section-kicker">CATALOG MANAGEMENT</span><h2>Kelola produk</h2><p>Tambah, ubah, atau hapus produk yang tampil di toko.</p></div><button class="admin-primary compact" id="new-product-button">+ Produk baru</button></div><div class="admin-product-layout"><form class="admin-form-card" id="product-form"><div class="admin-form-title"><b id="product-form-title">Tambah produk</b><button type="button" class="admin-text-button hidden" id="cancel-edit">Batal edit</button></div><input type="hidden" name="id"><label>Nama produk<input name="name" required maxlength="90" placeholder="Contoh: Tas selempang"></label><div class="admin-form-grid"><label>Kategori<select name="category"><option value="elektronik">Elektronik</option><option value="fashion">Fashion</option><option value="rumah">Rumah tangga</option><option value="kecantikan">Kecantikan</option><option value="olahraga">Olahraga</option></select></label><label>Harga (Rp)<input name="price" type="number" min="0" step="500" required placeholder="150000"></label><label>Harga sebelum diskon<input name="oldPrice" type="number" min="0" step="500" placeholder="Opsional"></label><label>Stok<input name="stock" type="number" min="0" step="1" value="10" required></label></div><label>URL foto produk<input name="image" type="url" placeholder="https://... (opsional)"></label><label>Atau upload foto<input name="imageFile" type="file" accept="image/*"><small>Foto akan diperkecil sebelum disimpan di browser.</small></label><label>Label produk<input name="label" maxlength="24" placeholder="PROMO / NEW ARRIVAL"></label><button class="admin-primary" type="submit">Simpan produk</button><p class="admin-form-message" id="product-form-message"></p></form><div class="admin-list-card"><div class="admin-list-heading"><b>Daftar produk</b><span id="admin-product-count">0 produk</span></div><div class="admin-product-list" id="admin-product-list"></div></div></div></section>
+          <section class="admin-page hidden" id="admin-page-orders"><div class="admin-page-heading"><div><span class="section-kicker">ORDER MANAGEMENT</span><h2>Pesanan pelanggan</h2><p>Lihat transaksi simulasi dan perbarui status pesanan.</p></div></div><div class="admin-orders-list" id="admin-orders-list"></div></section>
+          <section class="admin-page hidden" id="admin-page-settings">
+            <div class="admin-page-heading"><div><span class="section-kicker">SYSTEM SETTINGS</span><h2>Data & konfigurasi AI</h2><p>Kelola backup Local Storage dan koneksi 9Router dari backend.</p></div></div>
+            <div class="settings-grid">
+              <article class="admin-form-card"><div class="admin-form-title"><b>Backup data toko</b></div><p class="settings-copy">Ekspor produk, keranjang, dan pesanan menjadi satu file JSON. File ini dapat dipakai untuk memulihkan data di browser lain.</p><button class="admin-primary" id="backup-export">Unduh backup JSON</button><label>Import file backup JSON<input id="backup-import-file" type="file" accept="application/json,.json"></label><button class="admin-primary" id="backup-import">Pulihkan dari JSON</button><p class="admin-form-message" id="backup-message" role="status"></p></article>
+              <article class="admin-form-card"><div class="admin-form-title"><b>Konfigurasi 9Router</b><span class="ai-mode" id="router-status">Memuat…</span></div><p class="settings-copy">Konfigurasi disimpan di sisi server, bukan di JavaScript browser. Password admin server diperlukan untuk menyimpan perubahan.</p><form id="router-settings-form"><label>Base URL<input id="router-base-url" type="url" placeholder="http://127.0.0.1:20128/v1" required></label><label>Model alias<input id="router-model" type="text" placeholder="botwa" required></label><label>API key<input id="router-api-key" type="password" placeholder="Kosongkan jika tidak diubah" autocomplete="new-password"></label><label class="settings-check"><input id="router-clear-key" type="checkbox"> Hapus API key tersimpan</label><label>Password admin server<input id="router-admin-password" type="password" required autocomplete="current-password"></label><button class="admin-primary" type="submit">Simpan konfigurasi AI</button><p class="admin-form-message" id="router-message" role="status"></p></form></article>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </section>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
